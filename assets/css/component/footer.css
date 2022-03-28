@@ -1,0 +1,64 @@
+.footer {
+
+}
+
+.footer .content {
+    background-color: #282c2f;
+    height: 200px;
+    text-align: center;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .copyright {
+    background-color: #20242a;
+    color: var(--color-light);
+    padding: 18px;
+    text-align: center;
+}
+
+.footer .copyright .text {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.footer .copyright .company {
+    color: #aeaeae;
+}
+
+.footer .copyright .company .name {
+    color: var(--color-light);
+}
+
+/* Social Media */
+.social-media {
+
+}
+
+.social-media .items {
+    display: flex;
+    justify-content: center;
+}
+
+.social-media .items .item {
+    margin: 3px;
+}
+
+.social-media .items .item .link {
+    display: block;
+    background-color: #33383b;
+    color: var(--color-light);
+    height: 30px;
+    width: 30px;
+    line-height: 1.8;
+    font-size: 1.5rem;
+    border-radius: var(--dimen-radius);
+    transition: 0.3s ease;
+}
+
+.social-media .items .item .link:hover {
+    background-color: var(--color-light);
+    color: #33383b;
+}

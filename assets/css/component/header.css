@@ -1,0 +1,70 @@
+.header {
+}
+
+.nav {
+    background-color:var(--color-indigo);
+    height: 50px;
+}
+
+.nav .nav-bar {
+    display: none;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.nav .nav-bar .control {
+    color: var(--color-light);
+    font-size: 3rem;
+    padding: 7px;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.nav .nav-bar .logo {
+    background-image: url("../../img/logo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 50px;
+    margin: 10px 5px 0 0;
+    /*margin-left: 10px;*/
+}
+
+.nav .items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.nav .items.active {
+    z-index: 1;
+    position: relative;
+    flex-direction: column;
+    height: initial;
+    background-color: var(--color-grey);
+
+    visibility: visible;
+    opacity: 1;
+    transition: 0.3s ease;
+    transform: translateY(0);
+}
+
+.nav .items .item{
+    height: 100%;
+}
+
+.nav .items .item .link {
+    display: block;
+    color: var(--color-light);
+    padding: 15px;
+    transition: var(--dimen-transition);
+    font-size: 1.3rem;
+    height: 100%;
+}
+
+.nav .items .item .link:hover {
+    background-color: var(--color-grey);
+}

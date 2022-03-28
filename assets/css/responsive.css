@@ -1,0 +1,102 @@
+/* Laptop */
+@media only screen and (max-width: 1279px) {
+    /* assets/component/information.css */
+    .information {
+        padding: 20px;
+    }
+
+    .information .items .item {
+        margin-bottom: 20px;
+    }
+
+    .information .items .item.special .content {
+        height: 300px;
+    }
+}
+
+/* Tablet */
+@media only screen and (max-width: 768px) {
+    /* assets/component/information.css */
+    .information {
+        padding: 20px;
+    }
+
+    .information .items .item {
+        margin-bottom: 20px;
+    }
+
+    .information .items .item.special .content {
+        height: 300px;
+    }
+}
+
+/* Mobile */
+@media only screen and (max-width: 480px) {
+    /* assets/component/intro.css */
+    .intro {
+        height: calc(50vh - 50px);
+    }
+
+    .intro .content .title {
+        font-size: 3rem;
+    }
+
+    .intro .content .sub-title {
+        font-size: 2rem;
+    }
+
+    /* assets/component/header.css */
+    .nav .nav-bar {
+        display: flex;
+    }
+
+    .nav .items {
+        visibility: hidden;
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+
+    /* assets/component/parallax.css */
+    .parallax {
+        height: initial;
+    }
+
+    .parallax .content {
+        padding: 10px;
+    }
+
+    .parallax .content .text {
+        font-size: 1.2rem;
+    }
+
+    /* assets/component/information.css */
+    .information {
+        padding: 20px;
+    }
+
+    .information .items .item {
+        margin-bottom: 20px;
+    }
+
+    .information .items .item.special .content {
+        height: 350px;
+    }
+
+    /* assets/component/about.css */
+    .about {
+        padding: 20px;
+    }
+
+    .about .text .title {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .about .video {
+        margin-top: 20px;
+    }
+
+    .modal .modal-box video {
+        width: 100%;
+    }
+}

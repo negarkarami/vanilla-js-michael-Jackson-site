@@ -1,0 +1,19 @@
+@import url('./lib/normalize.css');
+@import url('./lib/flexboxgrid.css');
+@import url('./lib/iconfont.css');
+@import url('./font.css');
+@import url('./utils/utils.css');
+@import url('./basic.css');
+@import url('./theme.css');
+
+/* component */
+@import url('./component/header.css');
+@import url('./component/intro.css');
+@import url('component/parallax.css');
+@import url('./component/information.css');
+@import url('./component/about.css');
+@import url('./component/footer.css');
+@import url('./component/loader.css');
+
+/* responsive */
+@import url('./responsive.css');

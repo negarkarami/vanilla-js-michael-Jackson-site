@@ -1,0 +1,54 @@
+.information {
+    background-image: linear-gradient(90deg, #121117, #363940, #121117);
+    padding: 20px 200px;
+}
+
+.information .items .item .content {
+    border-radius: 10px;
+    background-color: var(--color-light);
+    height: 300px;
+    box-shadow: #000 0 0 10px 0;
+}
+
+.information .items .item.special .content {
+    height: 350px;
+}
+
+.information .items .item .content .image {
+    height: 150px;
+    background-size: cover;
+    border-radius: 10px 10px 0 0;
+    background-position: center;
+}
+
+.information .items .item .content .image.kaaba {
+    background-image: url('../../img/image2.jpg');
+}
+
+.information .items .item .content .image.madina {
+    background-image: url('../../img/image5.jpg');
+    background-position: center top ;
+
+}
+
+.information .items .item .content .image.mosque {
+    background-image: url('../../img/image1.jpg');
+    background-position: center top ;
+
+}
+
+.information .items .item .content .text {
+    text-align: center;
+    padding: 20px;
+}
+
+.information .items .item .content .text .title {
+    color: var(--color-indigo);
+}
+
+.information .items .item .content .text .description {
+    margin-top: 20px;
+    line-height: 1.5;
+    font-size: 1rem;
+
+}

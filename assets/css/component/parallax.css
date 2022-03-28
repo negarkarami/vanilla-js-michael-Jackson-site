@@ -1,0 +1,47 @@
+.parallax {
+    overflow: hidden;
+    position: relative;
+}
+
+.parallax .image {
+    background-image: url('../../img/maycle1.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: contain;
+    height: 400px;
+    animation: 5s linear 0s infinite alternate anim-parallax;
+}
+
+@keyframes anim-parallax {
+    from {
+
+    }
+    to {
+        transform: scale(1.3) rotate(4deg);
+    }
+}
+
+.parallax .content {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    height: 100%;
+}
+
+.parallax .content .text {
+    font-size: 2rem;
+    color: var(--color-dark);
+    text-align: justify;
+    background-color: rgba(38, 50, 56, 0.3);
+    padding: 10px;
+    border-radius: var(--dimen-radius);
+    line-height: 2;
+    margin-bottom: 10px;
+}

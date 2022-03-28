@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Almarai';
+    src: url('../font/almarai/Almarai-Light.eot');
+    src: url('../font/almarai/Almarai-Light.eot?#iefix') format('embedded-opentype'),
+        url('../font/almarai/Almarai-Light.woff2') format('woff2'),
+        url('../font/almarai/Almarai-Light.woff') format('woff'),
+        url('../font/almarai/Almarai-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Almarai';
+    src: url('../font/almarai/Almarai-ExtraBold.eot');
+    src: url('../font/almarai/Almarai-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../font/almarai/Almarai-ExtraBold.woff2') format('woff2'),
+        url('../font/almarai/Almarai-ExtraBold.woff') format('woff'),
+        url('../font/almarai/Almarai-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Almarai';
+    src: url('../font/almarai/Almarai-Regular.eot');
+    src: url('../font/almarai/Almarai-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../font/almarai/Almarai-Regular.woff2') format('woff2'),
+        url('../font/almarai/Almarai-Regular.woff') format('woff'),
+        url('../font/almarai/Almarai-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Almarai';
+    src: url('../font/almarai/Almarai-Bold.eot');
+    src: url('../font/almarai/Almarai-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../font/almarai/Almarai-Bold.woff2') format('woff2'),
+        url('../font/almarai/Almarai-Bold.woff') format('woff'),
+        url('../font/almarai/Almarai-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+

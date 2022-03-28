@@ -1,0 +1,91 @@
+.about {
+    background-color: var(--color-light);
+    padding: 20px 100px;
+}
+
+.about .text {
+
+}
+
+.about .text .title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--color-indigo);
+}
+
+.about .text .description {
+    font-size: 1.1rem;
+    /*margin-top: 20px;*/
+    text-align: justify;
+    line-height: 2;
+}
+
+.about .video {
+    width: 100%;
+}
+
+.about .video .content {
+    border-radius: 10px;
+    background-image: url('../../img/image4.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about .video .content .play {
+    border-radius: var(--dimen-circle);
+    border: 3px solid var(--color-light);
+    background-color: var(--color-indigo);
+    color: var(--color-light);
+    font-size: 2rem;
+    height: 50px;
+    width: 50px;
+    box-shadow: #000 0 0 10px 0;
+    cursor: pointer;
+    padding-top: 4px;
+    padding-left: 9px;
+    transition: 0.3s ease;
+}
+
+.about .video .content .play:hover {
+    background-color: var(--color-grey);
+}
+
+/* Modal */
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal.active {
+    display: flex;
+}
+
+.modal .modal-box {
+    text-align: center;
+}
+
+.modal .modal-box .close {
+    border-radius: var(--dimen-radius);
+    border: none;
+    background-color: var(--color-indigo);
+    color: var(--color-light);
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 10px 25px;
+    transition: 0.3s ease;
+}
+
+.modal .modal-box .close:hover {
+    background-color: var(--color-dark);
+}
